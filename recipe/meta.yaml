@@ -1,13 +1,13 @@
 {% set name = "pywwt" %}
-{% set version = "0.26.0" %}
+{% set version = "0.26.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b2a4a82d141be383111a1b746481228ba625cb1b5418e8a2f752e8b524766c86
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 5ba8a990c4c8ec8c2f9aa65820db29b418b6e748919e9934da92a612729e7508
 
 build:
   noarch: python
